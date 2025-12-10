@@ -275,7 +275,7 @@ const Bookings = () => {
                   <select className="flex-1 bg-white/10 border border-white/20 text-white rounded-lg px-2 sm:px-3 py-2 text-xs sm:text-sm focus:ring-2 focus:ring-amber-400 outline-none"
                     value={booking.status}
                     onChange={(e) => updateBookingStatus(booking._id, e.target.value)}>
-                    <option value="pending" className="bg-gray-800">Pending</option>
+                    {/* <option value="pending" className="bg-gray-800">Pending</option> */}
                     <option value="confirmed" className="bg-gray-800">Confirmed</option>
                     <option value="cancelled" className="bg-gray-800">Cancelled</option>
                   </select>
