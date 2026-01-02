@@ -21,6 +21,9 @@ authentication (including Google OAuth), comprehensive booking workflows with se
  flights, bookings, and users. Built with React.js frontend and Node.js/Express backend, it provides a seamless end-to-end experience for both travelers and
 administrators.
 
+![Profile Image](pic.jpeg)
+
+
 ### Tech Stack
 
 - **Frontend**: React
